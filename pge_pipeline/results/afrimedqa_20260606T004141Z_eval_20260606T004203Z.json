@@ -1,0 +1,36 @@
+{
+  "run_id": "afrimedqa_20260606T004141Z",
+  "checkpoint_dir": "/Users/gabrieleidelman/CS_Projects/torch_measure/src/pge/checkpoints/afrimedqa_20260606T004141Z",
+  "timestamp_utc": "2026-06-06T00:42:03.409754+00:00",
+  "config": {
+    "eval_item_frac": 0.2,
+    "embed_model": "all-MiniLM-L6-v2",
+    "embed_batch_size": 256,
+    "n_factors": 4,
+    "stage1_epochs": 150,
+    "stage1_lr": 0.05,
+    "stage2a_epochs": 500,
+    "stage2a_lr": 0.01,
+    "stage2a_alpha": 0.001,
+    "stage2a_variant": "amortized_em_linear",
+    "seed": 42,
+    "device": "cpu",
+    "embedding_dim": 384
+  },
+  "dataset_split": {
+    "n_subjects": 30,
+    "n_train_items": 5528,
+    "n_eval_items": 1382,
+    "n_observed_eval_responses": 22698,
+    "eval_density": 0.5474674105644226
+  },
+  "results": {
+    "brier": 0.2243782877922058,
+    "ece": 0.05959588156648539
+  },
+  "environment": {
+    "python": "3.13.1",
+    "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+    "torch": "2.12.0"
+  }
+}

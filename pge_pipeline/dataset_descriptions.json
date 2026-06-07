@@ -1,0 +1,33 @@
+{
+  "ultrafeedback": "### DATASET: UltraFeedback\n### PUBLISH TIME: 2023\n### CONTENT: large-scale preference dataset for reward model training and RLHF alignment research,\n          ,→ containing ~64,000 single-turn prompts each paired with four model responses sampled\n          ,→ from a pool of 17 LLMs and annotated by GPT-4 across multiple quality dimensions.",
+
+  "mmlupro": "### DATASET: MMLU-Pro (Massive Multitask Language Understanding Pro)\n### PUBLISH TIME: 2024\n### CONTENT: enhanced extension of MMLU for knowledge-intensive and reasoning-focused question\n          ,→ answering across 14 domains, expanding answer choices from four to ten options to\n          ,→ reduce saturation and increase sensitivity to chain-of-thought reasoning.",
+
+  "afrimedqa": "### DATASET: AfriMedQA\n### PUBLISH TIME: 2024\n### CONTENT: pan-African medical question answering benchmark sourced from 60+ medical schools\n          ,→ across 16 countries, covering 32 specialties through multiple-choice and open-ended\n          ,→ questions, designed to evaluate LLMs on African healthcare contexts and demographic bias.",
+
+  "bfcl": "### DATASET: BFCL (Berkeley Function Calling Leaderboard)\n### PUBLISH TIME: 2024\n### CONTENT: for measuring LLM tool-use and function-calling ability across serial, parallel,\n          ,→ and multi-turn scenarios in multiple programming languages, using Abstract Syntax Tree\n          ,→ evaluation to assess real-world API invocation correctness.",
+
+  "mmbench_v11": "### DATASET: MMBench v1.1\n### PUBLISH TIME: 2023 (v1.1 revised 2024)\n### CONTENT: bilingual (English and Chinese) benchmark for evaluating vision-language models\n          ,→ on multi-modal perception and reasoning through multiple-choice questions, with fine-\n          ,→ grained ability assessment across diverse visual understanding tasks.",
+
+  "ai2d_test": "### DATASET: AI2D (Allen Institute for AI Diagrams) test set\n### PUBLISH TIME: 2016\n### CONTENT: for measuring diagram understanding and visual question answering on illustrative\n          ,→ grade school science diagrams (food webs, life cycles, human physiology), with\n          ,→ multiple-choice questions requiring interpretation of diagrammatic elements and relationships.",
+
+  "rewardbench": "### DATASET: RewardBench\n### PUBLISH TIME: 2024\n### CONTENT: for evaluating reward models used in RLHF, using prompt-win-lose trios spanning\n          ,→ chat, reasoning, and safety categories, with structured comparisons that have verifiable\n          ,→ reasons why one response should be preferred over another.",
+
+  "hle": "### DATASET: HLE (Humanity's Last Exam)\n### PUBLISH TIME: 2025\n### CONTENT: frontier multi-modal academic benchmark of 2,500 expert-authored questions across\n          ,→ mathematics, humanities, and natural sciences, designed to resist internet lookup and\n          ,→ assess LLM capabilities at the limits of human knowledge, in response to saturation of\n          ,→ prior benchmarks.",
+
+  "agentdojo": "### DATASET: AgentDojo\n### PUBLISH TIME: 2024\n### CONTENT: dynamic evaluation framework for measuring adversarial robustness of tool-calling\n          ,→ LLM agents against indirect prompt injection attacks, jointly assessing task utility\n          ,→ and security across realistic environments including email, calendar, and banking suites.",
+
+  "livecodebench": "### DATASET: LiveCodeBench\n### PUBLISH TIME: 2024\n### CONTENT: contamination-free coding benchmark continuously updated with new competition\n          ,→ problems from LeetCode, AtCoder, and CodeForces, evaluating code generation,\n          ,→ self-repair, code execution, and test output prediction beyond isolated function generation.",
+
+  "mathvista_mini": "### DATASET: MathVista (mini)\n### PUBLISH TIME: 2023\n### CONTENT: for measuring mathematical reasoning in visual contexts, combining challenges from\n          ,→ 28 multimodal datasets spanning figures, charts, geometry, and scientific diagrams;\n          ,→ the mini subset (testmini) contains 1,000 examples used for standard evaluation.",
+
+  "swebench": "### DATASET: SWE-bench (Verified)\n### PUBLISH TIME: 2024\n### CONTENT: for evaluating LLM agents on real-world software engineering by resolving actual\n          ,→ GitHub issues across Python repositories; the Verified subset of 500 problems was\n          ,→ human-validated to confirm solvability, using execution-based evaluation against\n          ,→ existing test suites.",
+
+  "matharena": "### DATASET: MathArena\n### PUBLISH TIME: 2025\n### CONTENT: contamination-free benchmark for evaluating LLMs on mathematical reasoning using\n          ,→ uncontaminated problems from recurring competitions (AIME, HMMT, USAMO, IMO);\n          ,→ the first benchmark to include formal proof-writing evaluation alongside final-answer tasks.",
+
+  "mtbench": "### DATASET: MT-Bench\n### PUBLISH TIME: 2023\n### CONTENT: for evaluating LLM chat assistants on multi-turn conversational ability using 80\n          ,→ open-ended questions across writing, reasoning, math, coding, and knowledge categories,\n          ,→ scored by GPT-4 as judge; introduced alongside the LLM-as-a-judge paradigm.",
+
+  "androidworld": "### DATASET: AndroidWorld\n### PUBLISH TIME: 2024\n### CONTENT: dynamic benchmarking environment for autonomous agents, providing reward signals\n          ,→ for 116 programmatic tasks across 20 real-world Android applications, with randomized\n          ,→ task parameterization to test generalization and robustness of mobile GUI agents.",
+
+  "cybench": "### DATASET: CyBench\n### PUBLISH TIME: 2024\n### CONTENT: for measuring cybersecurity capabilities and risks of LLM agents through 40\n          ,→ professional-level Capture the Flag (CTF) challenges from HackTheBox, SekaiCTF,\n          ,→ Glacier, and HKCert competitions, spanning cryptography, web security, reverse\n          ,→ engineering, forensics, and exploitation."
+}

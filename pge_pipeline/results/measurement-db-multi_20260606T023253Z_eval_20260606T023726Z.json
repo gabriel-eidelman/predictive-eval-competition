@@ -1,0 +1,45 @@
+{
+  "run_id": "measurement-db-multi_20260606T023253Z",
+  "checkpoint_dir": "/Users/gabrieleidelman/CS_Projects/torch_measure/src/pge/checkpoints/measurement-db-multi_20260606T023253Z",
+  "timestamp_utc": "2026-06-06T02:37:26.083111+00:00",
+  "config": {
+    "eval_item_frac": 0.2,
+    "max_items_per_benchmark": 300,
+    "embed_model": "all-MiniLM-L6-v2",
+    "embed_batch_size": 256,
+    "n_factors": 4,
+    "stage1_epochs": 150,
+    "stage1_lr": 0.05,
+    "stage2a_epochs": 500,
+    "stage2a_lr": 0.01,
+    "stage2a_alpha": 0.001,
+    "stage2a_hidden_dim": 128,
+    "stage2a_cat_emb_dim": 64,
+    "stage2a_n_residual_layers": 2,
+    "stage2a_variant": "amortized_em_film_multibench",
+    "split": "within_benchmark_stratified",
+    "condition_col": "condition",
+    "benchmark_col": "benchmark",
+    "n_conditions": 24,
+    "n_benchmarks": 15,
+    "seed": 42,
+    "device": "cpu",
+    "embedding_dim": 384
+  },
+  "dataset_split": {
+    "n_subjects": 877,
+    "n_train_items": 2787,
+    "n_eval_items": 696,
+    "n_observed_eval_responses": 71213,
+    "eval_density": 0.11666765064001083
+  },
+  "results": {
+    "brier": 0.21018296480178833,
+    "ece": 0.03156155121166916
+  },
+  "environment": {
+    "python": "3.13.1",
+    "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+    "torch": "2.12.0"
+  }
+}
